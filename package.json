@@ -1,0 +1,30 @@
+{
+  "name": "machinepack-dominionapi",
+  "version": "0.1.0",
+  "description": "Information about Dominion cards",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Dominion API",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "^12.2.5"
+  },
+  "devDependencies": {
+    "jest": "^24.0.0",
+    "test-machinepack-mocha": "^2.1.5"
+  },
+  "machinepack": {
+    "friendlyName": "Dominion API",
+    "machineDir": "machines/",
+    "machines": [
+      "get-cards"
+    ],
+    "testsUrl": "https://travis-ci.org/"
+  }
+}
