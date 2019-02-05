@@ -1,0 +1,17 @@
+provider:
+    name: aws
+    runtime: nodejs8.10
+    stage: dev
+    region: us-east-1
+
+service:
+    name: Dominion-cards
+
+plugins:
+    - serverless-offline
+    
+functions:
+    get:
+        handler: handlers/get-cards.fn
+        events:
+            - http: GET /
