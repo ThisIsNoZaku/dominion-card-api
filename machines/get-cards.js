@@ -13,6 +13,10 @@ module.exports = {
 
 
   inputs: {
+    sets: {
+      type: ["ref"],
+      description: "The sets to return cards for",
+    }
 
   },
 
@@ -30,7 +34,8 @@ module.exports = {
   fn: function(inputs, exits
     /*``*/
   ) {
-    return exits.success(cards);
+    console.log(inputs.sets);
+    return exits.success(cards.filter(card => inputs.sets === undefined || inputs.sets.includes(card.set)));
   },
 
 
