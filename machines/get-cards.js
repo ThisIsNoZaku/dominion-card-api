@@ -1,5 +1,7 @@
 const cards = JSON.parse(require("fs").readFileSync(require("path").resolve(__dirname, "../cards.json")));
 
+const _ = require("lodash");
+
 module.exports = {
 
 
@@ -14,8 +16,12 @@ module.exports = {
 
   inputs: {
     sets: {
-      type: ["ref"],
+      type: ["string"],
       description: "The sets to return cards for",
+    },
+    types: {
+      type: ["string"],
+      description: "The types of cards to return",
     }
 
   },
@@ -34,8 +40,13 @@ module.exports = {
   fn: function(inputs, exits
     /*``*/
   ) {
-    console.log(inputs.sets);
-    return exits.success(cards.filter(card => inputs.sets === undefined || inputs.sets.includes(card.set)));
+    const filteredCards = cards
+      .filter(card => inputs.sets === undefined || inputs.sets.includes(card.set))
+      .filter(card => inputs.types === undefined || (_.intersection(card.types, inputs.types).length));
+      cards.filter(c => {
+        return _.intersection()
+      })
+    return exits.success(filteredCards);
   },
 
 
