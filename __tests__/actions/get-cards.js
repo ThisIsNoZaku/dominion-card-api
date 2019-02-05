@@ -324,5 +324,14 @@ describe("the get action", () => {
             .now()).toEqual(cards.filter(c => c.types.includes("reaction")));
         expect(actions.getCards({types: ["attack"]})
             .now()).toEqual(cards.filter(c => c.types.includes("attack")));
+    });
+    it("can return a combination of card types", () => {
+        const types = ["action", "attack", "victory", "treasure", "reaction"];
+        types.forEach(type1 => {
+            types.forEach(type2 => {
+                expect(actions.getCards({types: [type1, type2]})
+            .now()).toEqual(cards.filter(c => c.types.includes(type1) || c.types.includes(type2)));
+            });
+        });
     })
 });
