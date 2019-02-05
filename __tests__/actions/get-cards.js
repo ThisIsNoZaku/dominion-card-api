@@ -208,6 +208,6 @@ const cards = {
 
 describe("the get action", () => {
     it("returns all cards by default", async () => {
-        expect(actions.getCards.execSync()).toEqual(cards);
+        expect(actions.getCards().now()).toEqual(cards);
     });
 });

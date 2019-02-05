@@ -9,9 +9,6 @@ module.exports = {
   description: 'Get cards with optional filters',
 
 
-  cacheable: false,
-
-
   sync: true,
 
 
