@@ -1,3 +1,4 @@
+/* global expect */
 const actions = require("../../index");
 
 const cards = [{
