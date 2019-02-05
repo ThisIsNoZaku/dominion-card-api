@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/ThisIsNoZaku/dominion-card-api.svg?branch=master)](https://travis-ci.org/ThisIsNoZaku/dominion-card-api)
 <h1>
   <a href="http://node-machine.org" title="Node-Machine public registry"><img alt="node-machine logo" title="Node-Machine Project" src="http://node-machine.org/images/machine-anthropomorph-for-white-bg.png" width="50" /></a>
   machinepack-dominionapi
@@ -9,8 +8,7 @@
 Information about Dominion cards
 
 
-## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-dominionapi.svg)](http://badge.fury.io/js/machinepack-dominionapi) [![Build Status](https://travis-ci.org/.png?branch=master)](https://travis-ci.org/)
-
+## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-dominionapi.svg)](http://badge.fury.io/js/machinepack-dominionapi) [![Build Status](https://travis-ci.org/ThisIsNoZaku/dominion-card-api.svg?branch=master)](https://travis-ci.org/ThisIsNoZaku/dominion-card-api)(https://travis-ci.org/)
 ```sh
 $ npm install machinepack-dominionapi
 ```
