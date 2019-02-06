@@ -1,4 +1,54 @@
-[{
+[
+	{
+		"name" : "Copper",
+		"types" : ["treasure"],
+		"set": "basic",
+		"cost": 0,
+		"text" : "+$1"
+	},
+	{
+		"name" : "Silver",
+		"types" : ["treasure"],
+		"set": "basic",
+		"cost": 3,
+		"text" : "+$2"
+	},
+	{
+		"name" : "Gold",
+		"types" : ["treasure"],
+		"set": "basic",
+		"cost": 6,
+		"text" : "+$3"
+	},
+	{
+		"name" : "Estate",
+		"types" : ["victory"],
+		"set": "basic",
+		"cost": 2,
+		"text" : "+1 Victory."
+	},
+	{
+		"name" : "Duchy",
+		"types" : ["victory"],
+		"set": "basic",
+		"cost": 5,
+		"text" : "+2 Victory."
+	},
+	{
+		"name" : "Curse",
+		"types" : ["treasure"],
+		"set": "basic",
+		"cost": 0,
+		"text" : "-1 Victory."
+	},
+	{
+		"name" : "Province",
+		"types" : ["victory"],
+		"set": "basic",
+		"cost": 8,
+		"text" : "+3 Victory."
+	},
+	{
 		"name": "Cellar",
 		"types" : ["action"],
 		"set": "basev2",
