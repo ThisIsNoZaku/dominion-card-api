@@ -393,6 +393,48 @@ const cards = [{
         cost: 5,
         text: "Reveal a card from your hand. For each type it has (Action, Attack, etc.), choose one: +1 Action; or +1 Buy; or +$3; or gains a Gold. The choices must be different"
     },
+    {
+        "name": "Secret Chamber",
+        "types" : ["action", "reaction"],
+        "set": "intriguev1",
+        "cost": 2,
+        "text": "Discard any number of cards. +$1 per card discarded. When another player plays an Attack card, you may reveal this from your hand. If you do, +2 cards, then put 2 cards from your hand on top of your deck."
+    },
+    {
+        "name": "Great Hall",
+        "types" : ["action", "victory"],
+        "set": "intriguev1",
+        "cost": 3,
+        "text": "1 Victory Point. +1 Card. +1 Action."
+    },
+    {
+        "name": "Coppersmith",
+        "types" : ["action"],
+        "set": "intriguev1",
+        "cost": 4,
+        "text": "Copper produces an extry $1 this turn."
+    },
+    {
+        "name": "Scout",
+        "types" : ["action"],
+        "set": "intriguev1",
+        "cost": 4,
+        "text": "+1 Action. Reveal the top 4 cards of your deck. Put the revealed Victory cards into your hand. Put the other cards on top of your deck in any order."
+    },
+    {
+        "name": "Saboteur",
+        "types" : ["action", "attack"],
+        "set": "intriguev1",
+        "cost": 5,
+        "text": "Each other player reveals cards from the top of his deck until revealing one costing $3 or more. He trashes that card and may gain a card costing at most $2 less than it. He discards the other revealed cards."
+    },
+    {
+        "name": "Tribute",
+        "types" : ["action"],
+        "set": "intriguev1",
+        "cost": 5,
+        "text": "The player to your left reveals then discards the top 2 cards of his deck. For each differently named card revealed, if it is an... Action Card, +2 Actions. Treasure Card, +$2. Victory Card, +2 Cards."
+    }
 ];
 
 describe("the get action", () => {
