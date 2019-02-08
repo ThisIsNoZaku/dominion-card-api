@@ -1,5 +1,3 @@
-const cards = JSON.parse(require("fs").readFileSync(require("path").resolve(__dirname, "../cards.json")));
-
 const _ = require("lodash");
 
 module.exports = {

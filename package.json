@@ -27,7 +27,8 @@
     "friendlyName": "Dominion API",
     "machineDir": "machines/",
     "machines": [
-      "get-cards"
+      "get-cards",
+      "get-sets"
     ],
     "testsUrl": "https://travis-ci.org/"
   }
