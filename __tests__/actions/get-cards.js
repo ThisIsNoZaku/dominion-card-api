@@ -233,6 +233,48 @@ const cards = [{
         text: "Gain a card to your hand costing up to $5. Put a card from your hand onto your deck."
     },
     {
+		"name": "Chancellor",
+		"types" : ["action"],
+		"set": "basev1",
+		"cost": 3,
+		"text": "+$2. You may immediately put your deck into your discard pile."
+	},
+	{
+		"name": "Woodcutter",
+		"types" : ["action"],
+		"set": "basev1",
+		"cost": 3,
+		"text": "+1 Buy. +$2."
+	},
+	{
+		"name": "Feast",
+		"types" : ["action"],
+		"set": "basev1",
+		"cost": 4,
+		"text": "Trash this card. Gain a card costing up to $5."
+	},
+	{
+		"name": "Spy",
+		"types" : ["action", "attack"],
+		"set": "basev1",
+		"cost": 4,
+		"text": "+1 Card. +1 Action. Each player (including you) reveals the top card of his deck and either discards it or puts it back, your choice."
+	},
+	{
+		"name": "Thief",
+		"types" : ["action", "attack"],
+		"set": "basev1",
+		"cost": 4,
+		"text": "Each other player reveals the top 2 cards of his deck. If they revealed any Treasure cards, they trash one of them that you choose. You may gain any or all of these trashed cards. They discard the other revealed cards."
+	},
+	{
+		"name": "Adventurer",
+		"types" : ["action"],
+		"set": "basev1",
+		"cost": 6,
+		"text": "+1 Card. +1 Action. Reveal the top 4 cards of your deck. Put the revealed Coppers and Potions into your hand. Put the other cards back on top in any order."
+	},
+    {
         name: "Courtyard",
         "types" : ["action"],
         set: "intrigue",
