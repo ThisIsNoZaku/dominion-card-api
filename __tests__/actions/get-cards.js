@@ -434,6 +434,174 @@ const cards = [{
         "set": "intriguev1",
         "cost": 5,
         "text": "The player to your left reveals then discards the top 2 cards of his deck. For each differently named card revealed, if it is an... Action Card, +2 Actions. Treasure Card, +$2. Victory Card, +2 Cards."
+    },
+    {
+        "name": "Embargo",
+        "types" : ["action"],
+        "set": "seaside",
+        "cost": 2,
+        "text": "+$2. Trash this. Add an Embargo token to a Supply pile. (For the rest of the game, when a player buys a card from that pile, they gain a Curse."
+    },
+    {
+        "name": "Haven",
+        "types" : ["action", "duration"],
+        "set": "seaside",
+        "cost": 2,
+        "text": "+1 Card. +1 Action. Set asize a card from your hand face down (under this). At the start of your next turn, put it into your hand.."
+    },
+    {
+        "name": "Lighthouse",
+        "types" : ["action", "duration"],
+        "set": "seaside",
+        "cost": 2,
+        "text": "+1 Action. Now and as the start of your next turn: +$1. While this is in play, when another player plays an Attack card, it doesn't affect you."
+    },
+    {
+        "name": "Native Village",
+        "types" : ["action"],
+        "set": "seaside",
+        "cost": 2,
+        "text": "+2 Actions. Choose one: Put the top card of your deck face down on your Native Village mat (you may look at those cards at any time); or put all the cards from your mat into your hand."
+    },
+    {
+        "name": "Pearl Diver",
+        "types" : ["action"],
+        "set": "seaside",
+        "cost": 2,
+        "text": "+1 Card. +1 Action. Look at the bottom card of your deck. You may put it on top."
+    },
+    {
+        "name": "Ambassador",
+        "types" : ["action", "attack"],
+        "set": "seaside",
+        "cost": 3,
+        "text": "Reveal a card from your hand. Return up to 2 copied of it from your hand to the Supply. Then each other player gains a copy of it."
+    },
+    {
+        "name": "Fishing Village",
+        "types" : ["action", "duration"],
+        "set": "seaside",
+        "cost": 2,
+        "text": "+2 Actions. +$1. At the start of your next turn: +1 Action and +$1."
+    },
+    {
+        "name": "Lookout",
+        "types" : ["action"],
+        "set": "seaside",
+        "cost": 3,
+        "text": "+1 Action. Look at the top 4 cards of your deck. Trash one of them. Discard one of them. Put the other one back on to your deck"
+    },
+    {
+        "name": "Smugglers",
+        "types" : ["action"],
+        "set": "seaside",
+        "cost": 3,
+        "text": "Gain a copy of a card costing up to $6 that the player to your right gained on their last turn."
+    },
+    {
+        "name": "Warehouse",
+        "types" : ["action"],
+        "set": "seaside",
+        "cost": 3,
+        "text": "+3 Cards. +1 Action. Discard 3 cards."
+    },
+    {
+        "name": "Caravan",
+        "types" : ["action", "duration"],
+        "set": "seaside",
+        "cost": 4,
+        "text": "+1 Card. +1 Action. At the start of your next turn, +1 Card."
+    },
+    {
+        "name": "Cutpurse",
+        "types" : ["action", "attack"],
+        "set": "seaside",
+        "cost": 4,
+        "text": "+$2. Each other player discards a Copper (or reveals a hand with no Copper)."
+    },
+    {
+        "name": "Island",
+        "types" : ["action", "victory"],
+        "set": "seaside",
+        "cost": 4,
+        "text": "Put this ans a card from your hand onto your Island mat. 2 Victory Points."
+    },
+    {
+        "name": "Pirate Ship",
+        "types" : ["action", "attack"],
+        "set": "seaside",
+        "cost": 4,
+        "text": "Choose one: +$1 per Coin token on your Pirate Ship mat; or each other player reveals the top 2 cards of their deck, trashes one of those Treasures that you choose, and discard the rest, and then if anyone trashed a Treasure you add a Coin token to your Pirate Ship mat."
+    },
+    {
+        "name": "Salvager",
+        "types" : ["action"],
+        "set": "seaside",
+        "cost": 4,
+        "text": "+1 Buy. Trash a card from your hand. +$1 per $1 it costs."
+    },
+    {
+        "name": "Sea Hag",
+        "types" : ["action", "attack"],
+        "set": "seaside",
+        "cost": 4,
+        "text": "Each other player discards the top card of their deck, then gains a Curse onto their deck."
+    },
+    {
+        "name": "Treasure Map",
+        "types" : ["action"],
+        "set": "seaside",
+        "cost": 4,
+        "text": "Trash this an a Trasure Map from your hand. If you rashed two Treasure <aps, gain 4 Golds onto your deck."
+    },
+    {
+        "name": "Bazaar",
+        "types" : ["action"],
+        "set": "seaside",
+        "cost": 5,
+        "text": "+1 Card. +2 Actions. +$1."
+    },
+    {
+        "name": "Explorer",
+        "types" : ["action"],
+        "set": "seaside",
+        "cost": 5,
+        "text": "You may reveal a Provine from your hand. If you do, gain a Gold to your hand. If you don't, gain a Silver to your hand."
+    },
+    {
+        "name": "Ghost Ship",
+        "types" : ["action", "attack"],
+        "set": "seaside",
+        "cost": 5,
+        "text": "+2 Cards. Each other player with 4 or more cards in hand puts cards from their hand onto their deck until they have 3 cards in hand."
+    },
+    {
+        "name": "Merchant Ship",
+        "types" : ["action", "duration"],
+        "set": "seaside",
+        "cost": 5,
+        "text": "Now and at the start of your next turn: +$2."
+    },
+    {
+        "name": " Outpost",
+        "types" : ["action", "duration"],
+        "set": "seaside",
+        "cost": 5,
+        "text": "If this is the first time you played an Outpost this turn, and the previous turn wasn't yours, then take an extra turn after this one, and you only draw 3 cards for your next hand."
+    },
+    {
+        "name": "Tactician",
+        "types" : ["action", "duration"],
+        "set": "seaside",
+        "cost": 5,
+        "text": "If you have at least one card in hand, discard your hand, and at the start of your next turn, +5 Cards, +1 Action and +1 Buy."
+    },
+    {
+        "name": "Treasury",
+        "types" : ["action"],
+        "set": "seaside",
+        "cost": 5,
+        "text": "+1 Card. +1 Action. +$1. When you discard this from play, if you didn't buy a Victory card this turn, you may put this onto your deck."
     }
 ];
 
