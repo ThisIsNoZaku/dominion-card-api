@@ -12,7 +12,7 @@ exports.fn = async function(event, context, callback){
         }).now();
         console.log(event);
         callback(null, {
-            status: 200,
+            statusCode: 200,
             body: JSON.stringify({cards})
         });
     } catch(e) {
