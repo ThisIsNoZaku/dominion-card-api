@@ -7,6 +7,10 @@ provider:
 service:
     name: Dominion-cards
 
+custom:
+    serverless-offline:
+        port: 8081
+
 plugins:
     - serverless-offline
     
@@ -14,4 +18,4 @@ functions:
     get:
         handler: handlers/get-cards.fn
         events:
-            - http: GET /
+            - http: GET cards
