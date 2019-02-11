@@ -635,5 +635,11 @@ describe("the get action", () => {
             .now()).toEqual(cards.filter(c => c.types.includes(type1) || c.types.includes(type2)));
             });
         });
+    });
+    it("returns only cards in the 'cards' query parameter", () => {
+        const cardsToGet = ["Cellar", "Market", "Militia", "Adventurer", "Moat", "Bank", "Bureaucrat", "Village", "Chancellor", "Contraband"];
+        expect(actions.getCards({
+            cards: cardsToGet,
+        }).now()).toEqual(cards.filter(c => cardsToGet.includes(c.name)));
     })
 });
